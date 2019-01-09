@@ -1,0 +1,305 @@
+*
+{
+	margin:0;
+
+}
+
+
+
+body{
+	background: #f2f2f2;
+	color: black;
+	font-size: 16px;
+	font-family: 'Dancing Script', cursive;
+}
+
+#contenido
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header
+{
+	margin: 0 auto;
+	height: 1em;
+	padding-top: 2%;
+	padding-bottom: 2%;	
+	background-color: #5b7989;
+	color: white;
+	text-shadow: 2px 2px #02010a;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	animation: animacion3 3s;
+	
+}
+#encabezado{
+text-align: left;
+
+}
+#enlaces{
+text-align: right;
+
+
+
+}
+
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	
+	padding: 2%;
+	text-align: center;
+	height: 400px;
+}
+#principal {
+	width: 40%;
+}
+#secundaria {
+	width: 80%;
+}
+#retratos {
+	width: 80%;
+}
+
+	#columna1
+	{
+	background-color: #82c3a6;
+	
+	}
+	#columna2
+	{
+	background-color:  #d5c75f;
+	
+	}
+	#columna3
+	{
+	background-color:  #d5c75f;
+	
+	}
+	
+	
+
+
+@media screen and (min-width: 900px){
+	#pie1{
+		width: 25%;
+	}
+	#pie2{
+		width: 25%;
+	}
+	#pie3{
+		width: 25%;
+	}
+	#pie4{
+		width: 25%;
+	}
+
+	#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1 {
+
+		width: 100%;
+	}
+
+	#columna2 {
+
+		width: 50%;
+	}
+	#columna3 {
+
+		width: 50%;
+	}
+	#columnapaisajes1{
+		width: 33%;
+	}
+	#columnapaisajes2{
+		width: 33%;
+	}
+	#columnapaisajes3{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+
+	#pie1{
+		width: 100%;
+	}
+	#pie2{
+		width: 100%;
+	}
+	#pie3{
+		width: 100%;
+	}
+	#pie4{
+		width: 100%;
+	}
+
+#encabezado{
+
+	text-align: center;
+}
+#enlaces{
+
+	text-align: center;
+}
+
+
+#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+	width: 100%;
+	text-align: center;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+	#columnapaisajes1{
+		width: 100%;
+	}
+	#columnapaisajes2{
+		width: 100%;
+	}
+	#columnapaisajes3{
+		width: 100%;
+	}
+
+	header
+	{
+	width:100%;
+	}
+}
+@-webkit-keyframes animacion {
+
+	from{
+		transform: rotate(0deg);
+
+
+	}
+	to{
+		transform: rotate(10deg);
+
+
+	}
+}
+#secundaria:hover{
+
+	animation: animacion 3s;
+}
+#secundaria{
+	-webkit-filter:drop-shadow(15px 20px 25px #82c3a6);
+	filter: drop-shadow(15px 20px 25px #82c3a6);
+	border: 2px solid;
+}
+#retratos{
+-webkit-filter:drop-shadow(15px 20px 25px #82c3a6);
+	filter: drop-shadow(15px 20px 25px #82c3a6);
+	border: 2px solid;
+
+}
+@-webkit-keyframes animacion2 {
+
+	from{
+		transform: translate(0px,0px);
+
+
+	}
+	to{
+		transform: translate(20px,-5px);
+
+
+	}
+}
+#retratos:hover{
+
+	animation: animacion2 3s;
+
+}
+
+@-webkit-keyframes animacion3 {
+
+	0%{
+		margin-top: 150%;
+
+
+	}
+	60%{
+		margin-top: -5%;
+
+
+	}
+	100%{
+		margin-top: 0%;
+
+
+	}
+}
+footer article {
+    margin: 0 auto;
+    width: 100%;
+	
+	padding-top: 2%;
+	padding-bottom: 2%;	
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #C6d5c5;
+}
+
+#secundaria1{
+
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+	width: 85%;
+}
+#secundaria2{
+
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+	width: 85%;
+}
+#secundaria3{
+
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+	width: 85%;
+}
+
+#secundaria4{
+	width: 85%;
+
+	
+}
+#secundaria5{
+	width: 85%;
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+
+
+	
+}
+#secundaria6{
+	width: 85%;
+   -webkit-filter:grayscale(100%);
+   filter: grayscale(100%);
+	
+}
+.paisajes article{
+
+	background-color:  #d5c75f;
+}
